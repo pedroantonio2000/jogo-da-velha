@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da velha</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div id="menu">
+        <h2 id="pontuacao-jogadores">Pontuação dos jogadores:</h2>
+        <div class="pontuacao">
+            <span id="ponto-jogador-1" class="ponto">Jogador 1: 0</span>
+            <span>X</span>
+            <span id="ponto-jogador-2" class="ponto">Jogador 2: 0</span>
+
+        </div>
+        <p id="vencedor">Jogador 1 venceu</p>
+        
+    </div>
+    <div id="jogo">
+        <button id="p1" class="pos-jogo" onclick="jogar('p1')"></button>
+        <button id="p2" class="pos-jogo" onclick="jogar('p2')"></button>
+        <button id="p3" class="pos-jogo" onclick="jogar('p3')"></button>
+        <button id="p4" class="pos-jogo" onclick="jogar('p4')"></button>
+        <button id="p5" class="pos-jogo" onclick="jogar('p5')"></button>
+        <button id="p6" class="pos-jogo" onclick="jogar('p6')"></button>
+        <button id="p7" class="pos-jogo" onclick="jogar('p7')"></button>
+        <button id="p8" class="pos-jogo" onclick="jogar('p8')"></button>
+        <button id="p9" class="pos-jogo" onclick="jogar('p9')"></button>
+    </div>
+    <div class="container-botao">
+        <button id="reiniciar" onclick="reiniciar()">Reiniciar</button>
+    </div>
+    
+    
+</body>
+<script src="./main.js"></script>
+</html>
